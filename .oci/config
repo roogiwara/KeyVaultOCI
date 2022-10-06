@@ -3,4 +3,4 @@ user=ocid1.user.oc1..aaaaaaaa2xpxez6huapnjnbgp4tbr7k3ner52tikzqrpdva7o7labx3axn4
 fingerprint=da:0c:5a:c3:4a:e8:18:91:b0:04:f7:91:20:cb:47:5f
 tenancy=ocid1.tenancy.oc1..aaaaaaaaozlagww3lonuyd7mlrbpwrlkibfp2a3232wsmwmdkgfvklkeldca
 region=sa-saopaulo-1
-key_file=/.oci/vaultkey_homolog.pem
+key_file=C:\Github\KeyVaultOCI\.oci\vaultkey_homolog.pem

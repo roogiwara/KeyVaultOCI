@@ -19,19 +19,3 @@ def read_secret_value(secret_client, secret_id):
     secret_content = base64_message_bytes.decode('ascii')
 
     return secret_content
-
-
-if len(sys.argv) != 3:
-    raise RuntimeError(
-        'This example expects an ocid for the secret to read.')
-
-secret_id = sys.argv[1]
-oci_profile = sys.argv[2]
-
-config = config = oci.config.from_file(
-    "~/.oci/config",
-    oci_profile)
-
-secret_client = oci.secrets.SecretsClient(config)
-secret_content = read_secret_value(secret_client, secret_id)
-print("Decoded content of the secret is: {}.".format(secret_content))
