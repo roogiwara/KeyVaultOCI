@@ -9,6 +9,7 @@ def simpleapi():
     secret_id = parametros['chave']
 
     #http://127.0.0.1:5000/senha/?chave=ocid1.vaultsecret.oc1.sa-saopaulo-1.amaaaaaarnobwxyazyt5a3d6twwbmnf4qcsmq6xbce3s7yg5xj3ury623naq
+    #http://127.0.0.1:5000/senha/?chave=ocid1.vaultsecret.oc1.sa-saopaulo-1.amaaaaaarnobwxyapmlqfyz52antcf76imj6f5ta52kugsazp36hq3frpqoa
     
     oci_profile = "DEFAULT"
 
